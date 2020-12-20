@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap");
+
+:root {
+  --plum: plum;
+  --gray: #888888;
+  --white: white;
+}
+.App {
+  text-align: center;
+  font-family: Helvetica;
+}
+body {
+  background-color: var(--plum);
+}
+
+h1 {
+  color: white;
+  letter-spacing: 0.2rem;
+}
+button {
+  margin: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border-style: none;
+  font-size: 1rem;
+  font-family: Arial Narrow Bold;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+  width: 40%;
+  border-radius: 0.5rem;
+  background-color: var(--white);
+}
+
+.li-title {
+  font-size: large;
+  margin: 0.5rem 0rem;
+}
+
+.li-rating {
+  font-size: 0.7rem;
+}
